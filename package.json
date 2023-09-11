@@ -1,7 +1,7 @@
 {
-  "homepage": "http://devsk18.github.io/astronix",
+  "homepage": "http://devsk18.github.io/astronix/",
   "name": "astronix",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
