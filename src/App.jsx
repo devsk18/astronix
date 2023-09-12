@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="container-fluid p-0 main">
-      <BrowserRouter>
+      <BrowserRouter basename="/astronix">
         <NavBar />
         <Routes>
           <Route exact path='/' Component={Home}/>
