@@ -1,8 +1,45 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Astronix
 
-Currently, two official plugins are available:
+Explore the vast cosmos with Astronix, your gateway to the captivating world of Indian Space Research Organization (ISRO) missions. Stay informed about every ISRO launch, spacecraft, and launch vehicle with this intuitive app.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Demo
+
+[Live Preview](https://devsk18.github.io/astronix)
+
+
+## API Reference
+
+All statistics are taken from the [api](https://isrostats.in/apis) provided by ISRO.
+
+#### Base URL
+
+```
+  https://services.isrostats.in
+```
+
+#### Get all launches 
+
+```http
+  GET /api/launches
+```
+Gives the list of all the launches so far, includes payload, rocket type and mission status
+
+#### Get all Spacecraft 
+
+```http
+  GET /api/spacecraft
+```
+Gives the list of all the satellite launched by ISRO, includes details like Orbit, Application
+
+
+
+## Authors
+
+- [Sam K Thampan](https://www.github.com/devsk18)
+
+
+## Support
+
+[Buy me a coffee](https://www.buymeacoffee.com/samkthampan)
