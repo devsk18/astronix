@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function SpacecraftCards({data}) {
   return (
-    <div className="tab col-9 col-md-5 p-3 m-md-4 m-3">
+    <div className="tab col-9 col-md-5 col-lg-3 p-3 m-md-4 m-3">
         
         <h5 className='mb-3' title='Know More'><Link to={data?.link}>{data?.name}</Link></h5>
         <div className="launchType col" title='Launch Vehicle'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function VehicleTabs({data}) {
   return (
-    <div className="tab col-8 col-md-5 p-3 m-md-4 m-3">
+    <div className="tab col-9 col-md-5 col-lg-3 p-3 m-md-4 m-3">
         
         <div>
             <img className='rocket-img' src={data?.img} alt={data?.name} />
